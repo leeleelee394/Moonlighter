@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{8eb495b3-37e5-4ef3-b4bf-e40af1c4eb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Math">
+      <UniqueIdentifier>{912c0cf4-1c32-4e26-a9a2-4e51e78bf41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\File">
+      <UniqueIdentifier>{2e995de0-ded9-45ac-8133-f55767129a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\String">
+      <UniqueIdentifier>{5b979675-d9f4-4db1-bf17-20f13e552321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry">
+      <UniqueIdentifier>{1700f802-9853-409e-bbcd-706c2aa7f351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{fbdbd1fc-dc85-40b2-977c-095158e4b8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DirectX">
+      <UniqueIdentifier>{637938c5-d26e-41de-9d40-07df26e33f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Resource">
+      <UniqueIdentifier>{6c635a00-5a21-4a62-9860-ffd40e0aebb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{355edd46-0469-41f9-9f0e-a8f0b62bf7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Time">
+      <UniqueIdentifier>{bf9bc905-d37b-467c-9d2a-c8c3151ea294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Window">
+      <UniqueIdentifier>{545818c3-5899-4588-bc93-00184abbe025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene">
+      <UniqueIdentifier>{48604a6e-c863-4d87-a64e-b3c534db044d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Sound">
+      <UniqueIdentifier>{46553f27-1dab-4718-9f83-bd3c96936dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\LoadingScene">
+      <UniqueIdentifier>{db34a1a5-0242-4177-afe6-79eaf489e4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\TitleScene">
+      <UniqueIdentifier>{7b2ffa63-a6af-46ea-81cd-038611017869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\TitleScene\TitleObject">
+      <UniqueIdentifier>{84d74867-be4b-42aa-bc57-1fa6ad0a9970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\MainScene">
+      <UniqueIdentifier>{6333573b-14a4-4c59-a502-92f9f7d23916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\TownScene">
+      <UniqueIdentifier>{bf152be9-e145-4db3-86f5-1a81e18fe6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\TownScene\Object">
+      <UniqueIdentifier>{6ccbaaad-78f2-475b-a3f2-44776af172fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\TownScene\FrameObject">
+      <UniqueIdentifier>{d571bb10-8728-4998-a26b-63a4f73f76ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainHeader">
+      <UniqueIdentifier>{ceba5b2f-d487-4c5b-ae04-c120837460bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera">
+      <UniqueIdentifier>{27f13dd8-5c4d-4b76-aea4-dad90a752984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\Dungeon">
+      <UniqueIdentifier>{a54aa045-f8cd-4000-8cde-965da5c9f86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder">
+      <UniqueIdentifier>{52365358-4a56-4dc5-8c6b-dccd74e6f7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ree">
+      <UniqueIdentifier>{ba585205-377b-4ef7-b5f7-ad931b20b002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon">
+      <UniqueIdentifier>{3df1a5e0-e911-4ccd-9176-64c3faa8dda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module">
+      <UniqueIdentifier>{379a2311-5586-4e7f-b73b-d118451d15a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Animation">
+      <UniqueIdentifier>{bb3ce8fa-0c9b-4255-8e62-ea77c839c462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\GameObject">
+      <UniqueIdentifier>{b607e4c0-d641-47d4-9d1b-4f072a7baca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Light">
+      <UniqueIdentifier>{a3362a9f-aabf-4067-9a51-a3715e6557ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Loading">
+      <UniqueIdentifier>{76134e5e-c0c2-481b-82e6-fcf1944f0543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Timer">
+      <UniqueIdentifier>{1a9cff39-28db-4e00-bcca-89b4342cd1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Scene">
+      <UniqueIdentifier>{1e293258-f702-4ce8-b888-b4aae2f90c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Tutorial">
+      <UniqueIdentifier>{0ec844e8-5418-4d4f-9af2-5f626ed15d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha">
+      <UniqueIdentifier>{34c97096-16d2-4e34-aca5-5b7f4002198a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan">
+      <UniqueIdentifier>{c648cb71-0c75-4026-ad3f-39fed23f7176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\Inventory">
+      <UniqueIdentifier>{0be7a63c-bd7c-45a5-b520-0febe01fe1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\Item">
+      <UniqueIdentifier>{c55a0091-d177-40c1-8534-96038de654f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\ProgressBar">
+      <UniqueIdentifier>{0920c016-7f47-4e75-a6da-585e347691ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\UI">
+      <UniqueIdentifier>{dbfcdf7c-6023-44ac-bea1-439bf5a2a3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\Effect">
+      <UniqueIdentifier>{5ca445c5-d344-47bf-9928-4267c328661b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DebugSystem">
+      <UniqueIdentifier>{d6e92e84-1e42-41f4-9a6a-2a0cebe0595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEntry\Scene\DungeonLobby">
+      <UniqueIdentifier>{707e51b0-2621-4449-bba9-78de58763920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Soon\Module\Database">
+      <UniqueIdentifier>{1fc44241-7214-468d-912e-435940408178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\Enemy">
+      <UniqueIdentifier>{1de75822-83fa-4fc0-afed-bfdbcf96b6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy">
+      <UniqueIdentifier>{41e91560-27fe-4a08-a307-8565a197d594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\momEnemy">
+      <UniqueIdentifier>{47f0f6cc-daf9-4068-9af9-62c756a3b70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\BigSlime">
+      <UniqueIdentifier>{79f36bd8-2dde-4440-8ac1-264496ec3e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\Boss">
+      <UniqueIdentifier>{3badd277-f47c-498b-a29e-caacc2056ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\Golem">
+      <UniqueIdentifier>{4f720de0-5c77-40cb-955b-91f29a99b98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\Slime">
+      <UniqueIdentifier>{27ba23c2-a0ec-4cc2-8bcc-98e0615db678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Ha\Enemy\Weeds">
+      <UniqueIdentifier>{b3d7532e-c8a9-47f8-a2ef-5f32d7fa6481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\ProgressBar\Player">
+      <UniqueIdentifier>{42f8175a-167a-4e8a-9c43-cfdd1aef3920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\ProgressBar\Boss">
+      <UniqueIdentifier>{61342b1f-43c1-4a9a-aa47-ce6261634803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateForder\Chan\Data">
+      <UniqueIdentifier>{b786eda4-551a-41cd-a1e1-de50b3d10887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading">
+      <UniqueIdentifier>{e01f40a6-e07c-439c-ae5d-4266801c7e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\HLSL">
+      <UniqueIdentifier>{b10e9770-1f36-4a7b-8212-53ee66cdcbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Buffer">
+      <UniqueIdentifier>{bb757a73-9a5e-40e7-9cdc-d9a1bce7cac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\RenderTargetBuffer">
+      <UniqueIdentifier>{c4afa543-4f5e-46ea-8cbd-4f7f3268e972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shading\Shader">
+      <UniqueIdentifier>{56cc062a-e20f-4fd5-ae3f-8f102a0cc900}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeamProject.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>MainEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderer.h">
+      <Filter>System\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>System\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Utility\File</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Utility\File</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Utility\String</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>System\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineHeader.h">
+      <Filter>MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumStructHeader.h">
+      <Filter>MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryHeader.h">
+      <Filter>MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleHeader.h">
+      <Filter>MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Utility\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>System\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>MainEntry\Scene\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>MainEntry\Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>MainEntry\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackground.h">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleDoor.h">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleFlowObject.h">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Shading\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBuffer.h">
+      <Filter>Shading\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetBuffer.h">
+      <Filter>Shading\RenderTargetBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shading\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TownScene.h">
+      <Filter>MainEntry\Scene\TownScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>MainEntry\Scene\TownScene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>PrivateForder\Soon\Module\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>PrivateForder\Soon\Module\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>PrivateForder\Soon\Module\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSystem.h">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>PrivateForder\Soon\Module\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingSceneBase.h">
+      <Filter>PrivateForder\Soon\Module\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>PrivateForder\Soon\Module\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>PrivateForder\Soon\Module\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>PrivateForder\Soon\Module\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleDoorParticle.h">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInventory.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInventorySlot.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItem.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlayer.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCollider.h">
+      <Filter>MainEntry\Scene\TownScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameObject.h">
+      <Filter>MainEntry\Scene\TownScene\FrameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>MainEntry\Scene\TownScene\FrameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon_Map_01.h">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon_Map_02.h">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHuman.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>PrivateForder\Chan\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveItem.h">
+      <Filter>PrivateForder\Chan\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWeaponAndBag.h">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMoneyPoket.h">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageFontManager.h">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon_Map_Boss.h">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Plankton.h">
+      <Filter>PrivateForder\Chan\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystem.h">
+      <Filter>System\DebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonLobby.h">
+      <Filter>MainEntry\Scene\DungeonLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugObject.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDeadman.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeObject.h">
+      <Filter>PrivateForder\Soon</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>PrivateForder\Soon\Module\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugFrameObject.h">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonGate.h">
+      <Filter>MainEntry\Scene\DungeonLobby</Filter>
+    </ClInclude>
+    <ClInclude Include="OilLamp.h">
+      <Filter>MainEntry\Scene\TownScene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OilLampLight.h">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="LightParticle.h">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="LightParticleSystem.h">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>PrivateForder\Soon</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSlime.h">
+      <Filter>PrivateForder\Ha\Enemy\BigSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Weeds.h">
+      <Filter>PrivateForder\Ha\Enemy\Weeds</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>PrivateForder\Ha\Enemy\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>PrivateForder\Ha\Enemy\momEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>PrivateForder\Ha\Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>PrivateForder\Chan\ProgressBar\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BossProgressBar.h">
+      <Filter>PrivateForder\Chan\ProgressBar\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEffect.h">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="UICoin.h">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>PrivateForder\Chan</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceClass.h">
+      <Filter>PrivateForder\Chan</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>PrivateForder\Chan\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPotion.h">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc_Girl.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc_Guy.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc_Lunk.h">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderer + Create.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderer + Rendering.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderer.cpp">
+      <Filter>System\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>System\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Utility\File</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Utility\File</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Utility\String</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>System\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>System\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamProject.cpp">
+      <Filter>MainHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Utility\File</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>MainHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene + ReeInit.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene + HaInit.cpp">
+      <Filter>PrivateForder\Ha</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene + ChanInit.cpp">
+      <Filter>PrivateForder\Chan</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>System\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>MainEntry\Scene\LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>MainEntry\Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>MainEntry\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBackground.cpp">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleDoor.cpp">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleFlowObject.cpp">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Shading\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetBuffer.cpp">
+      <Filter>Shading\RenderTargetBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shading\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TownScene.cpp">
+      <Filter>MainEntry\Scene\TownScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>MainEntry\Scene\TownScene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>PrivateForder\Soon\Module\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>PrivateForder\Soon\Module\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>PrivateForder\Soon\Module\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSystem.cpp">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>PrivateForder\Soon\Module\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingSceneBase.cpp">
+      <Filter>PrivateForder\Soon\Module\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager + PrivateFunc.cpp">
+      <Filter>PrivateForder\Soon\Module\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>PrivateForder\Soon\Module\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>PrivateForder\Soon\Module\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>PrivateForder\Soon\Module\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene + SoonInit.cpp">
+      <Filter>PrivateForder\Soon</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleDoorParticle.cpp">
+      <Filter>MainEntry\Scene\TitleScene\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInventory.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInventorySlot.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItem.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayer.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCollider.cpp">
+      <Filter>MainEntry\Scene\TownScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameObject.cpp">
+      <Filter>MainEntry\Scene\TownScene\FrameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>MainEntry\Scene\TownScene\FrameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon_Map_01.cpp">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon_Map_02.cpp">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHuman.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>PrivateForder\Chan\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveItem.cpp">
+      <Filter>PrivateForder\Chan\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWeaponAndBag.cpp">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMoneyPoket.cpp">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageFontManager.cpp">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon_Map_Boss.cpp">
+      <Filter>MainEntry\Scene\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Plankton.cpp">
+      <Filter>PrivateForder\Chan\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystem.cpp">
+      <Filter>System\DebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>MainEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonLobby.cpp">
+      <Filter>MainEntry\Scene\DungeonLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugObject.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDeadman.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeObject.cpp">
+      <Filter>PrivateForder\Soon</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>PrivateForder\Soon\Module\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugFrameObject.cpp">
+      <Filter>PrivateForder\Soon\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGate.cpp">
+      <Filter>MainEntry\Scene\DungeonLobby</Filter>
+    </ClCompile>
+    <ClCompile Include="OilLamp.cpp">
+      <Filter>MainEntry\Scene\TownScene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="OilLampLight.cpp">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="LightParticle.cpp">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="LightParticleSystem.cpp">
+      <Filter>PrivateForder\Soon\Module\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>PrivateForder\Soon</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss + SlimeArm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player + Ani.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory+SprayItem.cpp">
+      <Filter>PrivateForder\Chan\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy + SprayItem.cpp">
+      <Filter>PrivateForder\Chan\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSlime.cpp">
+      <Filter>PrivateForder\Ha\Enemy\BigSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss + Hand.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss + Shadow.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Weeds.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Weeds</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>PrivateForder\Ha\Enemy\momEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>PrivateForder\Ha\Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>PrivateForder\Chan\ProgressBar\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BossProgressBar.cpp">
+      <Filter>PrivateForder\Chan\ProgressBar\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEffect.cpp">
+      <Filter>PrivateForder\Chan\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="UICoin.cpp">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>PrivateForder\Chan</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceClass.cpp">
+      <Filter>PrivateForder\Chan</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>PrivateForder\Chan\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPotion.cpp">
+      <Filter>PrivateForder\Chan\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc_Girl.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc_Guy.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc_Lunk.cpp">
+      <Filter>PrivateForder\Ree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TeamProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bag_Emblem.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Deferred.hlsl">
+      <Filter>Shading\HLSL</Filter>
+    </None>
+    <None Include="Lighting.hlsl">
+      <Filter>Shading\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
